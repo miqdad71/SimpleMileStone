@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#F6F6F6"
+    android:layout_height="100dp">
+
+    <View
+        android:id="@+id/v_top"
+        android:layout_width="6dp"
+        android:layout_height="40dp"
+        android:background="#80E1E1E1"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="@id/tv_times"
+        app:layout_constraintRight_toRightOf="@+id/tv_times"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:text="@string/times"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_top" />
+
+    <View
+        android:id="@+id/v_bot"
+        android:layout_width="6dp"
+        android:layout_height="40dp"
+        android:background="#80E1E1E1"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="@id/tv_times"
+        app:layout_constraintRight_toRightOf="@+id/tv_times"
+        app:layout_constraintTop_toBottomOf="@id/tv_times" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_items"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tv_times"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cb_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:background="@android:color/transparent"
+            android:button="@drawable/custom_checkbox"
+            android:text="@string/items"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

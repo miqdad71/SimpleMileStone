@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MileStoneApp</string>
+    <string name="milestone">MileStone</string>
+    <string name="tvTask">24 Tasks</string>
+    <string name="tvTitle">Design</string>
+    <string name="items">Items</string>
+    <string name="times">Times</string>
+    <string name="OpImage">Option Image</string>
+    <string name="ArImg">Arrow Image</string>
+    <string name="fa_button">Floatin Action Button</string>
+    <string name="fillPercent">25%</string>
+    <string name="menu1">Menu 1</string>
+    <string name="menu2">Menu 2</string>
+    <string name="menu3">Menu 3</string>
+
+    <string-array name="items_list">
+        <item> \t Breakfast</item>
+        <item> \t Work</item>
+        <item> \t Break</item>
+        <item> \t Work</item>
+        <item> \t Go Home</item>
+        <item> \t Take a Bath</item>
+        <item> \t Rest</item>
+        <item> \t Sleep</item>
+        <item> \t Wakeup</item>
+        <item> \t Pray</item>
+    </string-array>
+
+    <string-array name="times_list">
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>16:00</item>
+        <item>18:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+    </string-array>
+
+</resources>

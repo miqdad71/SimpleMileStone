@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="rounded_image">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="android:layout_margin">50dp</item>
+    </style>
+
+    <!--<item name="floatingActionButtonStyle">@style/Widget.MaterialComponents.FloatingActionButton</item> -->
+    <style name="MyFloatingActionButton" parent="@style/Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">#00f</item>
+        <!-- color used by the icon -->
+        <item name="tint">@color/white</item>
+    </style>
+
+</resources>
